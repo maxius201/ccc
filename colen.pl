@@ -166,6 +166,10 @@ sub comenzar {
 if($#ARGV > 3) {
     comenzar();
 } else {
-
+    print("
+[+]---------------------------------------------------------------[+]
+                   P-DoS  Moded by PROHUY                   
+[+]---------------------------------------------------------------[+]
+--> Use: pdos.pl [Url] [Connection] [Threads] [GET/POST/HEAD] [Proxy]
 --> Ex : pdos.pl http://target.com 9999 1000 GET 82.137.250.145:8080\n");
 }
